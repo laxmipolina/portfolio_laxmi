@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif ;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+    header-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        }
+        
+    header {
+    background: #d3c54c;
+    color: white;
+    padding: 80px 0 40px 0; /* Increased top padding to make space for raised image */
+    text-align: center;
+    position: relative;
+    justify-content: space-between;
+} 
+
+header h1 {
+    font-size: 42px;         /* Bigger font size for the name */
+    font-weight: 700;        /* Bold */
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif; /* Modern font */
+}
+.header-photo {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 4px solid white;
+}
+
+        nav {
+            background: #dad57a;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+    
+        .skills span {
+            display: inline-block;
+            background: #222;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 6px;
+            margin: 6px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }   
+
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            border-left:4px solid rgb(33, 49, 112);
+
+
+        }
+        
+        .about {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+           /* box-shadow: 0 2px 6px rgba(0,0,0,0.1);*/
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .project-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            /*box-shadow: 0 2px 6px rgba(0,0,0,0.1);*/
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #222;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Polina Laxmi Durga Sri</h1>
+        <img src="IMG_20240923_102418[2].jpg" class="header-photo">
+        <a href="https://leetcode.com/u/Laxmi_polina/">Leetcode</a>
+        <a href="https://www.linkedin.com/in/laxmi-polina-4829b5363?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">LinkedIn</a>
+        <a href=" https://github.com/laxmipolina">Github</a>
+        <a href="https://www.codechef.com/users/laxmi_polina">CodeChef</a>
+        
+        <p>Software Engineer | Data Analyst | Programmer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+    </nav>
+
+    <section id="about">
+        <h2>Hello..I'm</h2>
+        <h2 style="color:rgb(244, 114, 225)"> Polina.Laxmi Durga Sri</style></h2>
+        <div class ="about">
+            <p> I am Laxmi polina an undergraduate pursuing B-Tech in Kakatiya University college of Engineering and Technology. I am a quick catcher as well as easy learner having teamworking skills.
+
+                I possess extensive knowledge in Java Programming with expertise in Core java |Advanced java | C |Excel | SQL | and did some hands-on projects. Currently I am exploring DataScience  as I am very enthusiastic in Data Analysis and designs.Adept at quickly learning new technologies. Comfortable working and communicating in teams.
+            </p> 
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+
+        <ul>
+            <li>
+                <b>Bachelor of Technology</b><br>
+                KU College of Engineering and Technology<br>
+                <i>2022 - Present</i>
+            </li>
+
+            <li>
+                <b>Intermediate</b><br>
+                 Jawahar Navodaya Vidyalaya<br>
+                <i>2020 - 2022</i>
+            </li>
+
+            <li>
+                <b>SSC</b><br>
+                Jawahar Navodaya Vidyalaya<br>
+                <i>2020</i>
+            </li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <span>C</span>
+            <span>Java</span>
+            <span>Python</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Excel</span>
+            <span>Tableau</span>
+        </div>
+    </section>
+    <!--<section id="skills" style="padding:40px; background:#ffffff;">
+        <h2>Skills</h2>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:20px; margin-top:20px;">
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">C</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">Java</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">Python</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">HTML</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">CSS</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">SQL</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">Excel</div>
+            <div style="background:#f2f2f2; padding:15px; border-radius:10px; text-align:center; font-weight:bold;">Tableau</div>
+        </div>
+    </section>-->
+
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Online Assignment Submission System</h3>
+                <p>An online website for students where they can easily submit assignments using login/registration. Admins can assess submissions and download them directly. It helps decreasing the manual work for the faculty and the students.
+                    It also reduces the fear of lost assignments. i have used HTML,CSS,Nodejs,BycryptJs and multer to store the uploads of students.We can retreive the results from Database using SQL.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: polinalaxmidurgasri@gmail.com</p>
+        <p>Phone: 8919575239</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/laxmi-polina-4829b5363" target="_blank">linkedin.com/in/laxmi-polina-4829b5363</a></p>
+        <p>GitHub: <a href="https://github.com/laxmipolina" target="_blank">github.com/laxmipolina</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Polina.Laxmi Durga Sri. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
